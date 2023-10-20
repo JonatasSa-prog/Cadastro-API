@@ -8,7 +8,7 @@ namespace Cadastro_API.Data
         public DbSet<Person> Persons { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => 
-            optionsBuilder.UseSqlServer("Server=DESKTOP-3OHR665;Initial Catalog=Cadastro;Integrated Security=True;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-G3T3FSO;Initial Catalog=Cadastro;Integrated Security=True;TrustServerCertificate=true");
         
     }
 }
